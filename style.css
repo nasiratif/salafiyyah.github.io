@@ -1,0 +1,170 @@
+/* CTRL+F5 to hard refresh contents */
+
+body {
+ background-color: #272525; 
+ font-family: "default-font";
+ font-size: 24px;
+ color: #bdb9b9;
+ animation: fadein ease 0.5s;
+ animation-iteration-count: 1;
+ animation-fill-mode: forwards;
+ overflow-anchor: none;
+}
+
+@keyframes fadein {
+ 0% {
+  opacity: 0;
+ }
+ 
+ 100% {
+  opacity: 1; 
+ }
+}
+
+@font-face {
+ font-family: "default-font";
+ src: url(/markazi.ttf)
+}
+
+heading {
+ width: 650px;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ padding-top: 25px;
+ box-sizing: border-box;
+ margin: auto;
+ text-align: center;
+ display: block;
+ max-width: 100%;
+}
+
+heading h1 {
+ font-size: 54px; 
+ margin-bottom: 2px;
+}
+
+heading a {
+ color: #bdb9b9 !important;
+ text-decoration: none !important;
+ transition: 0.3s;
+}
+
+heading a:hover {
+  color: #615e5e !important;
+}
+
+
+heading h2 {
+ font-size: 24px;
+ text-transform: uppercase;
+ margin-bottom: 5px;
+}
+
+heading h2 a {
+ font-size: 24px;
+ text-transform: uppercase;
+ text-decoration: none;
+ color: #8c8c8c !important;
+ margin-bottom: 5px;
+}
+
+navigation {
+ width: 650px;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ padding-top: 15px;
+ box-sizing: border-box;
+ margin: auto;
+ text-align: center;
+ overflow: hidden;
+ display: block;
+ max-width: 100%;
+}
+
+navigation a {
+ padding: 10px 10px;
+ color: #6d6b6b !important;
+ text-decoration: none !important;
+ text-transform: uppercase;
+ transition: 0.3s;
+}
+
+navigation a:hover {
+  color: #bdb9b9 !important;
+}
+
+navigation #current {
+ color: #bdb9b9 !important;
+}
+
+main {
+ width: 650px;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ padding-top: 35px;
+ box-sizing: border-box;
+ margin: auto;
+ display: block;
+ max-width: 100%;
+}
+
+main h1 {
+ text-align: center;
+ font-size: 40px; 
+ cursor: help;
+}
+
+main h2 {
+ color: #6d6b6b;
+ text-align: center;
+ font-size: 20px; 
+}
+
+.bismillah {
+ display: block;
+ width: 325px; 
+ max-width: 100%;
+}
+
+post {
+ display: block;
+ line-height: 40px;
+}
+
+.quote {
+ color: #979393;
+ padding-left: 10px;
+ font-size: 26px; 
+}
+
+.sources {
+ font-weight: bold; 
+}
+
+footer {
+ text-align: center;
+ font-size: 19px;
+ padding-top: 5px;
+ color: #6d6b6b;
+}
+
+a {
+ color: #7d8892;
+ text-decoration: none;
+}
+
+::-webkit-scrollbar {
+ width: 15px; 
+}
+
+::-webkit-scrollbar-track {
+ background: #303030;
+}
+
+::-webkit-scrollbar-thumb {
+ background: #636363;
+}
+
+::-webkit-scrollbar-thumb:hover {
+ background: #434343;
+}
