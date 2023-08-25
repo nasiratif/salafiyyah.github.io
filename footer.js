@@ -1,1 +1,1 @@
-document.getElementById("ft").innerHTML = "© Salafīyyah.net | 1444 AH (all dates are displayed in Hijrī)";
+document.getElementById("ft").innerHTML = "© Salafīyyah.net | 1444/1445 AH (all dates are displayed in Hijrī)";
